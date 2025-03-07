@@ -5,3 +5,34 @@ Legal Identifier - age, $salary, _value, __1_value
 Illegal Identifier - 123abc, -salary
 
 -------------------------------------------------------------------
+
+__________________
+| Java Keywords  |
+------------------
+abstract    continue    for          new          switch         /\_/\  
+assert      default     goto*        package      synchronized  ( o.o ) 
+boolean     do          if           private      this           > ^ < 
+break       double      implements   protected    throw         /     \
+byte        else        import       public       throws       /       \
+case        enum        instanceof   return       transient   /_________\
+catch       extends     int          short        try
+char        final       interface    static       void
+class       finally     long         strictfp     volatile
+const*      float       native       super        while
+
+-------------------------------------------------------------------
+
+__________________
+| Primitive Types |
+-------------------
+byte    - 8-bit integer value, range: -128 to 127
+short   - 16-bit integer value, range: -32,768 to 32,767
+int     - 32-bit integer value, range: -2^31 to 2^31-1
+long    - 64-bit integer value, range: -2^63 to 2^63-1
+float   - 32-bit floating-point value, range: approximately ±3.40282347E+38F
+double  - 64-bit floating-point value, range: approximately ±1.79769313486231570E+308
+char    - 16-bit Unicode character, range: '\u0000' (0) to '\uffff' (65,535)
+boolean - true or false
+
+---------------------------------------------------------------------
+
