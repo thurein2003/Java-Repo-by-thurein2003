@@ -1,0 +1,7 @@
+__________________
+|Java Identifiers|
+------------------
+Legal Identifier - age, $salary, _value, __1_value
+Illegal Identifier - 123abc, -salary
+
+-------------------------------------------------------------------
